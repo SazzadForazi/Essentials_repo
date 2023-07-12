@@ -5,7 +5,7 @@
 scp C:\\Users\\User\\Desktop\\cam_footage\\forazi55.mp4 tigerit@192.168.1.231:~/src/mmaction2/demo
 scp -r C:\\Users\\User\\Desktop\\cam_footage tigerit@192.168.1.231:~/src/mmaction2/demo
 ```
-- ### ownload machine to computer
+- ### Download machine to computer
 ```
 scp tigerit@192.168.1.231:~/src/mmaction2/demo_out/55_out.mp4 . 
 ```
