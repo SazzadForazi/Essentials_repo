@@ -1,6 +1,6 @@
 # Nvidia (Ubuntu LTS)
 
-- ![#Nvidia]([https://via.placeholder.com/15/c5f015/c5f015.png](https://docs.nvidia.com/datacenter/tesla/tesla-installation-notes/index.html#install-types)) `#f03c15`
+- ![#f03c15]([https://via.placeholder.com/15/c5f015/c5f015.png](https://docs.nvidia.com/datacenter/tesla/tesla-installation-notes/index.html#install-types)) `#Nvidia`
 ```
 sudo apt-get install linux-headers-$(uname -r)
 ```
