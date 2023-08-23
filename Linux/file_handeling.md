@@ -13,6 +13,16 @@ scp tigerit@192.168.1.231:~/src/mmaction2/demo_out/55_out.mp4 .
 ```
 i=1;for img in $(find . -iname '*.jpg'); do echo -n "Converting $img"; mv $img $i.jpg  && echo $i && ((i++)); done
 ```
+- ### Image resize: 
+```
+mogrify -resize 640x640 -background white -gravity center -extent 640x640 *.jpg
+or (without extra pading )
+find . -name '*.jpg' -exec mogrify -resize 640x640\> {} \;
+```
+
+- ### Recursively find images and see dimension (width height)
+find . -name "*.jpg" -exec identify {} \;
+
 - ### Multi Folder create
 ```
   mkdir -p {1..5}
