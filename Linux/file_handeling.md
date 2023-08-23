@@ -19,11 +19,11 @@ mogrify -resize 640x640 -background white -gravity center -extent 640x640 *.jpg
 or (without extra pading )
 find . -name '*.jpg' -exec mogrify -resize 640x640\> {} \;
 ```
-```
 - ### Recursively find images and see dimension (width height)
-find . -name "*.jpg" -exec identify {} \;
 ```
 
+find . -name "*.jpg" -exec identify {} \;
+```
 - ### Multi Folder create
 ```
   mkdir -p {1..5}
