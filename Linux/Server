@@ -1,9 +1,9 @@
-## Directory listining for localhost
+## Directory listening for localhost
 - ## simple web server in the current directory.
 ```
-python3 -m http.server
+- ## python3 -m http.server
 ```
 - ## sets full read, write, and execute permissions for everyone on all files and directories in the current directory and its subdirectories
 ```
-chmod 777 -R .
+- ## chmod 777 -R .
 ```
