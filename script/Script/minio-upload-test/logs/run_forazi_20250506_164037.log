@@ -1,0 +1,21 @@
+[16:40:37] Opening video
+[16:40:37] Preparing bucket
+[16:40:37] Cleared objects with prefix 'Audi_A5_5min_1/' in bucket 'forazi'
+[16:40:37] Starting frame extraction and upload
+[16:40:47] [Progress] Frames Extracted: 713 (+713, 71.25/s), Uploaded: 712 (+712, 71.15/s), Failed: 0, Elapsed: 10.0s
+[16:40:57] [Progress] Frames Extracted: 1471 (+758, 75.79/s), Uploaded: 1470 (+758, 75.79/s), Failed: 0, Elapsed: 20.0s
+[16:41:07] [Progress] Frames Extracted: 2233 (+762, 76.12/s), Uploaded: 2232 (+762, 76.12/s), Failed: 0, Elapsed: 30.0s
+[16:41:17] [Progress] Frames Extracted: 2970 (+737, 73.65/s), Uploaded: 2969 (+737, 73.65/s), Failed: 0, Elapsed: 40.0s
+[16:41:17] Frame extraction complete. Waiting for uploads...
+[16:41:17] ----- Summary -----
+[16:41:17] Total frames extracted: 3000
+[16:41:17] Total uploaded:         3000
+[16:41:17] Total failed:           0
+[16:41:17] Elapsed time:           40.45 seconds
+[16:41:17] Average extraction rate: 74.19 frames/sec
+[16:41:17] Average upload rate:     74.16 frames/sec
+[16:41:17] ----- Per-thread Upload Stats -----
+[16:41:17] Thread 140145160468224: Success = 1513, Fail = 0
+[16:41:17] Thread 140145149982464: Success = 1487, Fail = 0
+
+
